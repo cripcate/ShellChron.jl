@@ -3,13 +3,10 @@
 
 # ShellChron
 
-<!-- badges: start -->
+This is an unfinished julia fork of the R ShellChron package developed by Niels de Winter. This fork is for private code development and not (yet) indended for public use. Please checkout [the real ShellChron](https://github.com/nielsjdewinter/ShellChron) instead!
 
-[![Travis build
-status](https://travis-ci.com/nielsjdewinter/ShellChron.svg?branch=master)](https://travis-ci.com/nielsjdewinter/ShellChron)
-<!-- badges: end -->
 
-This is an unfinished, private julia fork of the R ShellChron package developed by Niels de Winter, that is not (yet) indended for public use. Please checkout [the real ShellChron](https://github.com/nielsjdewinter/ShellChron) instead!
+
 
 Original documentation:
 
