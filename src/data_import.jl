@@ -1,38 +1,3 @@
-
-module ShellChron
-
-begin
-    using CSV
-    using DataFrames
-    using CategoricalArrays
-
-
-    struct Temperature
-        av::Number
-        amp::Number
-        pha::Number
-        per::Number
-    end
-
-    struct Growth
-        av::Number
-        amp::Number
-        pha::Number
-        per::Number
-        skw::Number
-    end
-
-    struct Model
-        t::Temperature
-        g::Growth
-    end
-
-    T = Temperature(4.2, 5, 2, 3)
-    G = Growth(4.2, 5, 2, 3, 1)
-    mod = Model(T, G)
-end
-
-
 """Function to import d18O data and process yearmarkers and calculation windows.
 
 Takes the name of a file that is formatted according to the standard format
@@ -75,6 +40,3 @@ function data_import(filename::String)
 
     return modeldata
 end
-
-data_import("data-raw/test.csv")
-

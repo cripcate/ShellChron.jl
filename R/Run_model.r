@@ -1,3 +1,5 @@
+
+
 #' Function that optimizes sinusoid parameters to fit d18O data
 #' 
 #' The second core function of the ShellChron growth model. Loops
